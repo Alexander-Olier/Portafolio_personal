@@ -37,6 +37,7 @@ export default function Home() {
       <div className="my-12 w-6/12">
         <img
           src="./img/home1.svg"
+          alt="Men in space"
           className="ml-auto"
           width="70%"
           height="70%"
