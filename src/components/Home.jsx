@@ -9,12 +9,12 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="flex h-screen justify-center items-center">
-      <div className=" w-6/12 ">
-        <h2 className="uppercase text-lg text-regal-gris font-semibold">
+    <div className="grid grid-cols-1 lg:flex h-screen justify-center items-center md:h-max">
+      <div className="w-full lg:w-7/12 ">
+        <h2 className="text-tiny uppercase lg:uppercase text-lg text-regal-gris font-semibold ">
           dev frontend
         </h2>
-        <h1 className="text-7xl font-bold uppercase">Olier Alexander</h1>
+        <h1 className="text-4xl lg:text-7xl font-bold uppercase ">Olier Alexander</h1>
         <div className="flex space-x-3 my-3">
           <button>
             <FontAwesomeIcon icon={faInstagram} size="2x" />
@@ -34,13 +34,11 @@ export default function Home() {
           remaining essentially unchanged. 
         </p>
       </div>
-      <div className="my-12 w-6/12">
+      <div className="w-full lg:w-5/12">
         <img
           src="./img/home1.svg"
           alt="Men in space"
-          className="ml-auto"
-          width="70%"
-          height="70%"
+          className="w-5/6 h-3/6 mx-auto lg:ml-auto w-full h-5/6"
         />
       </div>
     </div>

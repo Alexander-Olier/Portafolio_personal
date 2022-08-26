@@ -2,11 +2,13 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="w-full h-screen flex justify-center items-center">
-      <div className="w-5/12 bg-[url('../public/img/about/vector.png')] bg-no-repeat h-5/6 flex items-center ">
-        <h1 className="text-7xl font-bold uppercase">About us</h1>
+    <div className="grid grid-cols-1 mt-12 lg:flex w-full h-screen  justify-center items-center">
+      <div className="w-full h-0 lg:w-5/12 bg-[url('../public/img/about/vector.png')] bg-no-repeat h-5/6 flex items-center">
+        <h1 className="text-4xl lg:text-7xl font-bold uppercase ">
+          About us
+        </h1>
       </div>
-      <div className="w-7/12 m-5">
+      <div className="w-full m-0 mt-5 lg:w-7/12 m-5 ">
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever

@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <div>
-      <header className="inline-flex w-full mb-10">
+      <header className="hidden lg:inline-flex w-full mb-10">
         <div className="flex items-center">
           <img src="./img/logo.png" className="m-2" alt="logo buho"/>
           <h4 className="text-lg uppercase">dev olier</h4>
