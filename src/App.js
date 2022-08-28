@@ -8,14 +8,16 @@ import Portafolio from "./components/Portafolio";
 
 function App() {
   return (
-    <div className="container m-10 lg:container mx-auto">
+    <>
       <Header />
-      <Home />
-      <About />
-      <Portafolio />
-      <Contact />
-      <Footer />
-    </div>
+      <div className="container m-10 mt-0 lg:container mx-auto">
+        <Home />
+        <About />
+        <Portafolio />
+        <Contact />
+        <Footer />
+      </div>
+    </>
   );
 }
 

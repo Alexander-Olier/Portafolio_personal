@@ -9,7 +9,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-1 space-x-0 lg:flex h-full justify-center items-center">
+    <div className="grid grid-cols-1 space-x-0 lg:flex h-full justify-center items-center pt-24">
       <div className="w-full lg:w-7/12 ">
         <h2 className="text-tiny uppercase lg:uppercase text-lg text-regal-gris font-semibold ">
           dev frontend
