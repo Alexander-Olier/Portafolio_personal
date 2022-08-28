@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className="grid grid-cols-1 mt-12 lg:flex w-full h-screen  justify-center align-items">
-      <div className="bg-none w-full lg:w-5/12 flex items-center bg-[url('../public/img/contact/vector.png')] bg-no-repeat bg-left-bottom">
+    <div className="grid grid-cols-1 mt-12 lg:flex w-full h-screen justify-center align-items">
+      <div className="w-full lg:w-5/12 flex items-center">
         <div className="grid">
           <h1 className="text-4xl lg:text-7xl font-bold uppercase">Contact</h1>
           <p className="m-0 lg:mr-10">

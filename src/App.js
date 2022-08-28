@@ -8,7 +8,7 @@ import Portafolio from "./components/Portafolio";
 
 function App() {
   return (
-    <div className="container mx-auto">
+    <div className="container m-auto lg:container mx-autp">
       <Header />
       <Home />
       <About />

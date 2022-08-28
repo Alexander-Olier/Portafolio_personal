@@ -9,7 +9,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-1 lg:flex h-full justify-center items-center space-x-4">
+    <div className="grid grid-cols-1 space-x-0 lg:flex h-full justify-center items-center space-x-4">
       <div className="w-full lg:w-7/12 ">
         <h2 className="text-tiny uppercase lg:uppercase text-lg text-regal-gris font-semibold ">
           dev frontend
@@ -38,6 +38,7 @@ export default function Home() {
         <img
           src="./img/home1.svg"
           alt="Men in space"
+          className=""
         />
       </div>
     </div>
